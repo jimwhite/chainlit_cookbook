@@ -1,6 +1,7 @@
 import json
 
 from langchain.agents import AgentExecutor
+from langflow.interface.utils import try_setting_streaming_options
 
 from chainlit.langflow import load_flow
 import chainlit as cl
@@ -22,7 +23,8 @@ async def main(message):
     flow = cl.user_session.get("flow")  # type: AgentExecutor
 
     # Enable streaming
-    flow.agent.llm_chain.llm.streaming = True
+    # flow.agent.llm_chain.llm.streaming = True
+    try_setting_streaming_options(flow, None)
 
     # Run the flow
     res = await cl.make_async(flow.run)(

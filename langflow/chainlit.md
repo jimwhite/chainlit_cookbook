@@ -1,14 +1,9 @@
-# Welcome to Chainlit! 🚀🤖
+# Welcome to Fovi Experiments on Chainlit! 🚀🤖
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Presumably you've arrived here at [https://ai.fovi.com](https://ai.fovi.com) on an invitation from Jim White.
 
-## Useful Links 🔗
+## Hello!
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/ZThrUxbAYw) to ask questions, share your projects, and connect with other developers! 💬
+This chatbot acts as an expert on startups and aims to coach prospective cofounders thru the process of answering the [50 Questions for Potential Co-Founders](https://review.firstround.com/the-founder-dating-playbook-heres-the-process-i-used-to-find-my-co-founder) by [Gloria Lin](https://twitter.com/immunoglobulin).
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
-
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+You don't need to answer all the questions nor do them in any particular order.  You can ask the AI to write a summary of your answers any time.  Soon we'll have email signups so you can keep your history.
